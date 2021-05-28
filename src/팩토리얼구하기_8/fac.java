@@ -1,4 +1,4 @@
-package 팩토리얼구하기_7;
+package 팩토리얼구하기_8;
 
 import java.util.Scanner;
 
