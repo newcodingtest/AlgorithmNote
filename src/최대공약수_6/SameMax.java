@@ -1,7 +1,4 @@
-package 최대공약수_5;
-
-import java.util.ArrayList;
-import java.util.List;
+package 최대공약수_6;
 
 public class SameMax {
     public static void main(String[] args){
