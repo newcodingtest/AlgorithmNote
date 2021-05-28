@@ -1,4 +1,4 @@
-package 소수판별기_6;
+package 소수판별기_7;
 
 import java.util.Scanner;
 
