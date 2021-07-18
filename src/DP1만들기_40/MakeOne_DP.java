@@ -39,7 +39,7 @@ public class MakeOne_DP {
         map[3]=1;
             Scanner sc = new Scanner(System.in);
             int x = sc.nextInt();
-
+  //
         for (int i = 4; i <=1000000; i++) {
             int a=99999;
             int b=99999;
