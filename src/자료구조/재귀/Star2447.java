@@ -1,7 +1,6 @@
-package 자료구조.팩토리얼;
+package 자료구조.재귀;
 
 import java.io.*;
-import java.util.Scanner;
 
 /*문제
         재귀적인 패턴으로 별을 찍어 보자. N이 3의 거듭제곱(3, 9, 27, ...)이라고 할 때, 크기 N의 패턴은 N×N 정사각형 모양이다.
