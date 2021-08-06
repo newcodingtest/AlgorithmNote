@@ -36,17 +36,14 @@ public class Hanoi11729 {
     public static StringBuilder sb = new StringBuilder();
     public static void main(String[] args)throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
 
         int input = Integer.parseInt(br.readLine());
 
         sb.append((int)(Math.pow(2,input)-1)+"\n");
         //하노이 데이터개수 원판1, 원판2, 원판3
         hanoi(3,1,2,3);
-        bw.write(sb.toString());
-        bw.flush();
-        bw.close();
-
+        System.out.println(sb);
 
     }
 
@@ -61,11 +58,10 @@ public class Hanoi11729 {
         //원반 이동 개수가 1개라면,
         if(N==1){
             sb.append(start + " " + end+"\n");
-            return;
         }
 
         //n-1개를 A->B 로 이동
-        hanoi(N-1,start,end,mid);
+        hanoi(N-1,start,mid,end);
         sb.append(start + " " + end+"\n");
         //n-1개를 B->C 로 이동
         hanoi(N-1,mid,start,end);
